@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: X X, X, LIC=GMZI6-DQED5-JJK6S-LE4C4-AANN9-72DG0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+E:\STM32\STM32H503_LSM6DSV320X_LIS2MDL_Project1\STM32H503_LSM6DSV320X_LIS2MDL_Project3\MDK-ARM\STM32H503_LSM6DSV320X_LIS2MDL_Project3.uvprojx
+Project File Date:  03/10/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'STM32H503_LSM6DSV320X_LIS2MDL_Project3'
+compiling stm32h5xx_hal_i2c_ex.c...
+compiling gpio.c...
+compiling main.c...
+assembling startup_stm32h503xx.s...
+compiling stm32h5xx_hal_cortex.c...
+compiling i2c.c...
+compiling icache.c...
+compiling usart.c...
+compiling stm32h5xx_hal_msp.c...
+compiling stm32h5xx_it.c...
+compiling stm32h5xx_hal_dma.c...
+compiling stm32h5xx_hal_rcc.c...
+compiling stm32h5xx_hal_dma_ex.c...
+compiling stm32h5xx_hal_flash.c...
+compiling stm32h5xx_hal_i2c.c...
+compiling stm32h5xx_hal_pwr.c...
+compiling stm32h5xx_hal_rcc_ex.c...
+compiling stm32h5xx_hal_icache.c...
+compiling stm32h5xx_hal_exti.c...
+compiling system_stm32h5xx.c...
+compiling stm32h5xx_hal_uart_ex.c...
+compiling stm32h5xx_hal_pwr_ex.c...
+compiling stm32h5xx_hal_flash_ex.c...
+compiling stm32h5xx_hal.c...
+compiling stm32h5xx_hal_gpio.c...
+compiling stm32h5xx_hal_uart.c...
+../Core/Src/lsm6dsv320x_reg.c(257): warning: implicit truncation from 'unsigned int' to bit-field changes value from 255 to -1 [-Wbitfield-constant-conversion]
+    z_ofs_usr.z_ofs_usr = 0xFFU;
+                        ^ ~~~~~
+../Core/Src/lsm6dsv320x_reg.c(258): warning: implicit truncation from 'unsigned int' to bit-field changes value from 255 to -1 [-Wbitfield-constant-conversion]
+    y_ofs_usr.y_ofs_usr = 0xFFU;
+                        ^ ~~~~~
+../Core/Src/lsm6dsv320x_reg.c(259): warning: implicit truncation from 'unsigned int' to bit-field changes value from 255 to -1 [-Wbitfield-constant-conversion]
+    x_ofs_usr.x_ofs_usr = 0xFFU;
+                        ^ ~~~~~
+../Core/Src/lsm6dsv320x_reg.c(340): warning: implicit truncation from 'unsigned int' to bit-field changes value from 255 to -1 [-Wbitfield-constant-conversion]
+    z_ofs_usr.xl_hg_z_ofs_usr = 0xFFU;
+                              ^ ~~~~~
+../Core/Src/lsm6dsv320x_reg.c(341): warning: implicit truncation from 'unsigned int' to bit-field changes value from 255 to -1 [-Wbitfield-constant-conversion]
+    y_ofs_usr.xl_hg_y_ofs_usr = 0xFFU;
+                              ^ ~~~~~
+../Core/Src/lsm6dsv320x_reg.c(342): warning: implicit truncation from 'unsigned int' to bit-field changes value from 255 to -1 [-Wbitfield-constant-conversion]
+    x_ofs_usr.xl_hg_x_ofs_usr = 0xFFU;
+                              ^ ~~~~~
+6 warnings generated.
+compiling lsm6dsv320x_reg.c...
+linking...
+Program Size: Code=24986 RO-data=698 RW-data=20 ZI-data=16660  
+FromELF: creating hex file...
+"STM32H503_LSM6DSV320X_LIS2MDL_Project3\STM32H503_LSM6DSV320X_LIS2MDL_Project3.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.0.0.pack
+                ARM.CMSIS.6.0.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H5xx_DFP.1.0.0.pack
+                Keil.STM32H5xx_DFP.1.0.0
+                STMicroelectronics STM32H5 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_STM32H503_LSM6DSV320X_LIS2MDL_Project3
+  C:/Users/a8456/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include
+  C:/Users/a8456/AppData/Local/Arm/Packs/Keil/STM32H5xx_DFP/1.0.0/Drivers/CMSIS/Device/ST/STM32H5xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.0.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
